@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>X Space 纪要合集 · yat</title>
+<meta name="description" content="X Space 录音转写纪要合集：结论先行，关键数字与发言人判断均标注为现场自述。" />
+<style>
+  :root{
+    color-scheme: light dark;
+    --bg:#faf9f6; --surface:#fff; --surface2:#f1efe9; --ink:#1c1a17; --ink2:#57534b; --ink3:#8a857b;
+    --line:#e4e1d9; --accent:#1d9bf0; --accent-soft:#e8f5fe; --warn:#b45309; --warn-soft:#fef3c7;
+    --ok:#067647; --ok-soft:#dcfae6; --radius:16px;
+    --shadow:0 10px 30px rgba(28,26,23,.07);
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#101418; --surface:#171c22; --surface2:#1f262e; --ink:#f2f4f5; --ink2:#b6bec6; --ink3:#7e8894;
+      --line:#2b333c; --accent-soft:#122a3d; --warn-soft:#33270e; --ok-soft:#0d2b1d; --shadow:0 10px 30px rgba(0,0,0,.4); }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);line-height:1.75;
+    font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC","Segoe UI",sans-serif;
+    -webkit-font-smoothing:antialiased}
+  .wrap{max-width:920px;margin:0 auto;padding:0 20px 64px}
+  header{padding:44px 0 8px}
+  h1{font-size:30px;margin:0 0 6px;letter-spacing:.5px}
+  .sub{color:var(--ink2);margin:0 0 4px}
+  .note{color:var(--ink3);font-size:13px}
+  nav.toc{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0 8px}
+  nav.toc a{color:var(--ink);text-decoration:none;background:var(--surface);border:1px solid var(--line);
+    padding:6px 12px;border-radius:999px;font-size:13px}
+  nav.toc a:hover{border-color:var(--accent);color:var(--accent)}
+  section.space{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+    box-shadow:var(--shadow);padding:26px 26px 10px;margin:22px 0}
+  section.space h2{font-size:21px;margin:0 0 4px;line-height:1.4}
+  .meta{color:var(--ink2);font-size:13.5px;margin:0 0 4px}
+  .meta a{color:var(--accent);text-decoration:none;word-break:break-all}
+  .badge{display:inline-block;font-size:12px;padding:1px 9px;border-radius:999px;vertical-align:2px;margin-right:6px}
+  .badge.done{background:var(--ok-soft);color:var(--ok)}
+  .badge.pending{background:var(--warn-soft);color:var(--warn)}
+  .verdict{background:var(--accent-soft);border-radius:12px;padding:14px 16px;margin:14px 0}
+  .verdict strong.t{display:block;margin-bottom:4px}
+  h3{font-size:16px;margin:20px 0 6px}
+  ul{margin:6px 0 12px;padding-left:22px}
+  li{margin:4px 0}
+  details{border-top:1px dashed var(--line);padding:10px 0 4px;margin-top:8px}
+  summary{cursor:pointer;color:var(--accent);font-size:14px;padding:4px 0}
+  .small{font-size:13px;color:var(--ink3)}
+  footer{color:var(--ink3);font-size:13px;margin-top:34px;border-top:1px solid var(--line);padding-top:14px}
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin:18px 0 2px}
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+  .card b{display:block;font-size:14.5px;line-height:1.45}
+  .card span{color:var(--ink2);font-size:12.5px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>🎙️ X Space 纪要合集</h1>
+  <p class="sub">每场 Space 结束后抓录音、本地转写、整理成结论先行的中文纪要，统一归档在这里。</p>
+  <p class="note">阅读提醒：文中金额、人数、战绩等数字均为发言人现场自述或转述，未经外部核实；引用时请以各方官方后续公告为准。</p>
+  <div class="cards">
+    <div class="card"><b>币安被黑事件讨论</b><span>2026-10-29 · 宝二爷主持 · 6 小时 21 分</span></div>
+    <div class="card"><b>噪音之后 · 麦当专场</b><span>2026-10-27 · AI 自媒体创业 · 2 小时 08 分</span></div>
+    <div class="card"><b>claude 防封交流</b><span>2026-10-27 · CryptoOlddog · 13 分钟</span></div>
+    <div class="card"><b>黑天鹅碰撞中期大选</b><span>2026-11-05 · WalletV中文主持 · 直播中已盯守</span></div>
+  </div>
+  <nav class="toc">
+    <a href="#space-20261105">最新一场 · 待补</a>
+    <a href="#space-binance">币安被黑事件讨论</a>
+    <a href="#space-maidang">麦当专场</a>
+    <a href="#space-olddog">claude 防封交流</a>
+  </nav>
+</header>
+
+<!-- ============ NEW SPACE PLACEHOLDER (cron will replace this section) ============ -->
+<section class="space" id="space-20261105">
+  <h2><span class="badge pending">直播中 · 盯守</span>黑天鹅碰撞中期大选：巨震行情下，散户如何守住钱包与捕捉波动？</h2>
+  <p class="meta">2026-11-05 晚 · 主持 @WalletV_CN（WalletV中文）· 发言人：@Paris13Jeanne（K线教主）、@qg7777（茄哥）、@bi_9527zx（DeFi狙击手）、@BTV_Michael、@0xDonaldGao（唐长老）、@AdamCai15（Adam）</p>
+  <p class="meta">原链接：<a href="https://x.com/i/spaces/1qVjpqmOElnWzg?s=20">https://x.com/i/spaces/1qVjpqmOElnWzg</a> · 2026-11-05 22:53 核对时直播中、116 人收听、带 REC 录制</p>
+  <div class="verdict"><strong class="t">状态</strong>
+  盯守中：等这场结束、回放放出后，自动下载录音、转写并把纪要补进本页。</div>
+</section>
+
+<!-- ============ BINANCE ============ -->
+<section class="space" id="space-binance">
+  <h2><span class="badge done">已完成</span>币安被黑事件讨论</h2>
+  <p class="meta">2026-10-29 晚 · 主持 @ChandlerGuo（宝二爷），共同主持 @qg7777（茄哥）· 发言人：大漂亮、张哥、K 线教主、Adam、林可、ahr996 等 · 录音 6 小时 21 分（有声内容约到 06:03）</p>
+  <p class="meta">原链接：<a href="https://x.com/i/spaces/1mdjgoregOjLvy?s=20">https://x.com/i/spaces/1mdjgoregOjLvy</a></p>
+  <div class="verdict"><strong class="t">结论先行</strong>
+  这场与其说是事件复盘，不如说是一次「币圈安全公开课 + 行情心理按摩」。全场最一致的三个判断：① 币安体量够大、赔得起，不必恐慌性挤兑，这不是第二个 FTX；② 没有任何保管方式 100% 安全，所有交易所都会丢币，区别只在丢多少、利润盖不盖得住、冻结能追回多少；③ 普通人最现实的方案不是学黑客技术，而是分开放、用对姿势、少操作、别信假客服。</div>
+  <h3>关键数字（现场口径并列，不要当定论）</h3>
+  <ul>
+    <li><b>涉案/波及总额口径</b>：开场汇总称接近 60 亿美元（先被攻击约 25 亿 + 另一地址约 7.8 亿 USDC ≈ 累计 33 亿）；张哥推上的报告约 57.79 亿美元（浮动值）。</li>
+    <li><b>已冻结口径</b>：CZ 相关帖被转述为冻结约 17.94 亿美元（Tether 约 9.7 亿 + Circle 约 8 亿多）；波场链约 3.13 亿 USDT 被冻结；后现场又称币安公告总计冻结约 25.4 亿美元。</li>
+    <li><b>净损失估计口径</b>：10–20 亿美元（Adam 段）；大漂亮估计可追回 30 多亿、剩余损失 30 多亿。现场引用 DeFiLlama 创始人说法：币安托管约 1,440 亿美元、损失约 10 亿、占比约 0.69%。</li>
+    <li><b>最难处理的一环</b>：黑客把 USDT 抵押进 Aave 借出约 1.98 万枚 ETH；Aave 随后冻结 V3、V4 池子，Binance Alpha 交易暂停，提币在安全检查完成前暂停。</li>
+  </ul>
+  <h3>归因：场内没有定论</h3>
+  <ul>
+    <li>张哥个人判断「内部人员内外勾结可能性占 80%」；另有转述称初步调查指向某工程师电脑被攻破；场内多次称「已确认是 Lazarus」并点名 ZachXBT 爆料——均为现场转述，本纪要不采信任何一种为结论，主持方也明确表示最终以币安完整报告为准。</li>
+  </ul>
+  <details>
+    <summary>展开：给普通听众的实操建议（场内共识与分歧）</summary>
+    <ul>
+      <li><b>分层存放</b>：原话式共识是「冷钱包放一些、软钱包放一些、交易所放一些」。资金小的散户，现场反而建议分散放在头部合规交易所，因为个人专业知识远远不够。</li>
+      <li><b>买冷钱包</b>：官方渠道、最新款/最新固件、防拆包装，警惕弱随机数与被植入芯片的假冷钱包。</li>
+      <li><b>助记词</b>：不要改词、不要靠脑子记——少 1 个词很快能被算力跑出来，改词连安全公司老板都出过错。正确做法是分片（2–3 份）、每片再加密、分开存放。</li>
+      <li><b>手机当冷钱包有分歧</b>：反对派说手机没有安全芯片、不能保证强随机数；支持派说离线不联网创建即是冷钱包。场内未裁决，如实并列。</li>
+      <li><b>转账纪律</b>：地址粘贴+图片核对+读后几位；大额（现场提到 5 万/10 万美元量级）转账前视频确认本人，警惕假钱包、假 Telegram/WhatsApp 换地址。</li>
+      <li><b>只信官方公告</b>：提币暂停期间，任何主动找你、自称能帮你开通提币权限的「客服」都是骗局。</li>
+      <li><b>行情心态</b>：不要急着抄底，尤其不要带杠杆；第一根针一般不是最低点，观察 48–72 小时二次抛压；定投可金字塔式分批买主流币。</li>
+    </ul>
+    <p class="small">说明：04:00 后话题明显发散到 AI、美股、存储股、定投教学等，与被盗事件关系已弱；本节重点在前约 3.5 小时。转写无说话人分离，发言人归属以主持人点名为准。</p>
+  </details>
+</section>
+
+<!-- ============ MAIDANG ============ -->
+<section class="space" id="space-maidang">
+  <h2><span class="badge done">已完成</span>噪音之后 · 麦当专场：AI 自媒体创业，10 个月变现 20 万</h2>
+  <p class="meta">2026-10-27 · 主持 Adrian Punk（@AdrianPunk115）· 主讲 麦当（@mdldm）· 提问/讨论：李白天、黄小木（木哥）等 · 录音 2 小时 08 分</p>
+  <p class="meta">原链接：<a href="https://x.com/i/spaces/1pKdRDqVlWpJW?s=20">https://x.com/i/spaces/1pKdRDqVlWpJW</a></p>
+  <div class="verdict"><strong class="t">结论先行</strong>
+  麦当跑通的不是「卖一门课」，而是「订阅我这个人」：单一包年产品（约 499/500 元/年），10 个月、120 多节录播课、约 300–400 名付费用户、变现近 20 万元（自述「不到 20 万」，标题取整）。核心基建是自建知识站——全平台只做引流，结算、权益、数据、评论全部收归一站，框架已开源。他拒绝 9.9 元引流、层层销转，赌低转化、高黏性、高续费（其预期续费率约 80%，属个人估算，尚未到验证期）。</div>
+  <h3>为什么自建知识站</h3>
+  <ul>
+    <li><b>起因是被盗版</b>：2023 年初录的第一门 AI 工具课全年只卖十几份，2024 年免费放 B站也无水花；后来发现被多个搬运博主低价售卖、单视频播放最高上百万——内容有价值，错的是宣发和售卖路径。</li>
+    <li><b>防盗版</b>：有被搬运的 PTSD，不信任把内容托管在各平台。</li>
+    <li><b>统一结算与权益</b>：多平台上架会带来价格、优惠、权益、退款规则全不一致，用户跨平台比价吵架的精力消耗比抽成更可怕。</li>
+    <li><b>数据可复盘</b>：自有站能看落地页浏览量（≈全平台引流总量）、转化、每节课的播放进度与跳出点；第三方平台给不了。</li>
+  </ul>
+  <h3>内容与引流打法</h3>
+  <ul>
+    <li><b>形态转型</b>：从长篇系统课转向「每周一次付费直播 + 录播沉淀为付费资产」，对冲工具教程随模型更新迅速过时的问题。直播选题来自新技术更新 + 会员群当周集中问题，后段留约 10 分钟答疑。</li>
+    <li><b>免费/付费切分</b>：基础体系内容放公域（小红书、B站、X、抖音、YouTube）；小红书/抖音完播率低但收藏量高，所以把系列课开头几节免费发、开头埋钩子，完整资料在站里。</li>
+    <li><b>引流链路</b>：小红书直接放站外链接会被限流，先引到飞书文档，文档里再埋落地页和私域群入口；每个平台埋不同链接以便分析渠道转化。</li>
+    <li><b>做课公式</b>：一条功能线 + 一条案例线——例如教 Codex 的 computer use，落点是「用 Codex 做电商自动化上架」。录课不用完整口播稿、按点发挥；不掺杂个人观点的环节全部交给 AI 或外包。</li>
+  </ul>
+  <details>
+    <summary>展开：开源的飞轮、木哥的「标品逻辑」、给新手的建议</summary>
+    <ul>
+      <li><b>开源反哺主业</b>：他把整套知识付费框架（会员制、课程上下架、播放、支付、CDN/存储踩坑）开源到 GitHub。用他框架搭站的用户会进群、自发帮他回答新用户的基础问题——开源解决了知识付费最耗人的答疑交付。</li>
+      <li><b>木哥的对照打法（与会者观点）</b>：买课的人大多不看课（其引用同行上万学员数据：完课率不到 10%），应 10% 时间做课、90% 时间搞流量；只卖标品不做销售咨询；开 50% 分销；课程拆短；再把 API 封装加价形成连环链路。麦当的保留意见：分销用户不是冲 IP 来的、续费黏性可能掉；且用户越觉得课有用越不愿推给同事，除非推课本身能赚钱。</li>
+      <li><b>行业判断</b>：AI 博主变现三条路——商单、企业服务、知识产品；共识是商单会慢慢减少，知识付费的价值首先是稳定现金流。续费是全行业痛点（与会者称头部社群续费率也只有约 50%–60%）。</li>
+      <li><b>给新手</b>：不需要资历背书，先起号，用 Learning in Public 把学习过程录下来发出去；60 分的人完全可以教 30 分的人。陪跑类定价先做竞品调研、定在中位略高——高到「哪怕累一点也觉得值得」，且开工前先讲清交付边界。</li>
+      <li><b>在互联网上留痕</b>：现在起号更重要的理由是让大模型的 web search 能搜到「你是谁、你干什么」，否则在 Agent 眼里「你这个人就没活过」。</li>
+      <li><b>散场约定</b>：下一场邀做 FDE 的阿玛在某个周末晚 10 点后分享企业实战案例。</li>
+    </ul>
+  </details>
+</section>
+
+<!-- ============ OLDDOG ============ -->
+<section class="space" id="space-olddog">
+  <h2><span class="badge done">已完成</span>claude 防封交流（CryptoOlddog）</h2>
+  <p class="meta">2026-10-27 19:58–约 20:11 · 主持/主讲 @CryptoOlddog（老狗）· 录音 13 分 19 秒，全程独白，无听众上麦、无问答</p>
+  <p class="meta">原链接：<a href="https://x.com/i/spaces/1PKqrNvaqVmGb">https://x.com/i/spaces/1PKqrNvaqVmGb</a>（公告帖原名「10.18 版本后的防封指南 AMA」；注意：当晚流传的另一个链接 1pKdRDqVlWpJW 实为麦当专场，不是这场）</p>
+  <div class="verdict"><strong class="t">结论先行</strong>
+  名为「防封指南 AMA」，实际只有 13 分钟，实质是主讲人近一个月做 Claude 开号生意的经验复盘 + 宣布建群拉同行，没有成体系的防封教程。他的核心判断：10 月 18 日后 Claude 风控明显升级，指纹浏览器那套做不出号了，能出号的路径依赖海外真人 + 当地家庭 IP；Pro 号能小赚但对不起时间成本，真正的瓶颈在 Max 20x 产能；这门生意本质依赖 Claude 对中国的封锁，是在跟时间赛跑。</div>
+  <h3>他的战绩与账（均为自述）</h3>
+  <ul>
+    <li>10 月 3 日开工，约一个月开了 100 来个 Pro 号，封了约 20 个，现存活 80 多个。Pro 号相对好开：风控不严、不需要电话、不太容易跳 KYC。</li>
+    <li><b>10.18 前后</b>：以前用 AdsPower 指纹浏览器挂静态 IP 就能开号；18 号之后再也做不出号。比特浏览器他实测连 Claude 都打不开。</li>
+    <li><b>支付</b>：虚拟卡月初还能用、后来失效（他不确定是供应商问题还是平台不再接受）；改用实体信用卡，一张卡约开 5–6 个号，海外开卡有限额、等待期长（有人要两周）。</li>
+    <li><b>Max 20x</b>：只打出个位数，全部过了 KYC。他知道能用中国护照过 KYC，但没想通怎么批量贴脸；网上卖 KYC 的商家他没试过。</li>
+    <li><b>Pro 的账</b>：号价（他称「肉价」，单位语境不明）上周均价约 1.8–1.9、本周约 1.2，在跌；订阅费跑一两天能回本，但人工等成本在 20 美元以上级别，整批只是「小赚」。一个 Pro 号算力约等于 Max 20x 的 1/20。</li>
+  </ul>
+  <p class="small">提醒：批量开号、转售账号的做法本身踩在平台封控线上，与他自述约 20% 的封号率一致，不建议直接照搬。本场所有方法、数字与时间点均为单方陈述，无第二信源印证。</p>
+</section>
+
+<footer>
+  <p>归档说明：本页由 Space 专区盯守流程生成——每场先核对主持/标题防拿错场，再下载录音、本地转写、整理纪要。完整纪要与转写稿另有存档。最后更新：2026-11-05。</p>
+</footer>
+</div>
+</body>
+</html>
